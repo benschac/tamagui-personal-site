@@ -13774,6 +13774,13 @@ __metadata:
     react-native: "npm:0.72.5"
     react-native-web: "npm:~0.19.6"
     vercel: "npm:latest"
+  peerDependencies:
+    "@react-three/drei": "*"
+    "@react-three/fiber": "*"
+    framer-motion: "*"
+    maath: "*"
+    react-tilt: "*"
+    react-vertical-timeline-component: "*"
   languageName: unknown
   linkType: soft
 
