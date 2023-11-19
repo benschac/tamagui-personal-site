@@ -17,8 +17,8 @@ function MyApp({ Component, pageProps }: SolitoAppProps) {
   return (
     <>
       <Head>
-        <title>Tamagui Example App</title>
-        <meta name="description" content="Tamagui, Solito, Expo & Next.js" />
+        <title>bensch.ac</title>
+        <meta name="description" content="bensch.ac" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ThemeProvider>
