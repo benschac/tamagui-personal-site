@@ -29,16 +29,19 @@ export const navLinks = [
   {
     id: 'about',
     title: 'About',
+    href: '/about',
   },
   {
     id: 'work',
     title: 'Work',
+    href: '/work',
   },
   {
     id: 'contact',
     title: 'Contact',
+    href: '/contact',
   },
-]
+] as const
 
 const services = [
   {
