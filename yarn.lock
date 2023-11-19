@@ -13773,6 +13773,7 @@ __metadata:
     react-dom: "npm:^18.2.0"
     react-native: "npm:0.72.5"
     react-native-web: "npm:~0.19.6"
+    solito: "npm:^3.0.0"
     vercel: "npm:latest"
   peerDependencies:
     "@react-three/drei": "*"
