@@ -14,11 +14,13 @@ const Navbar = () => {
   }
 
   return (
-    // @ts-expect-error - TODO: fix this
     <YStack
-      $platform-web={{
-        pos: 'fixed',
-      }}
+      $platform-web={
+        {
+          //
+          // pos: 'fixed',
+        }
+      }
       tag="nav"
       px
       w="100%"
