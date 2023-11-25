@@ -12,7 +12,7 @@ export default function Page() {
       </Head>
       <Navbar />
       <Hero />
-      <YStack>
+      {/* <YStack>
         <About />
         <Experience />
         <Tech />
@@ -22,7 +22,7 @@ export default function Page() {
           <Contact />
           <Stars />
         </YStack>
-      </YStack>
+      </YStack> */}
     </>
   )
 }

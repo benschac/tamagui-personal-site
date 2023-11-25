@@ -1,8 +1,12 @@
+import { YStack } from '@my/ui'
 import React from 'react'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <YStack tag="section" py="$5">
+      Hero
+      Hero
+    </YStack>
   )
 }
 
