@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@nderscore/tamagui-typescript-plugin",
+        "pathToApp": "apps/next",
+        "defaultTheme": "light"
+    }
+    ],
     "baseUrl": ".",
     "rootDir": ".",
     "importHelpers": true,

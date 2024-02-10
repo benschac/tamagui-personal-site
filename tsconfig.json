@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "plugins": [
+      {
+           "name": "@nderscore/tamagui-typescript-plugin",
+           "pathToApp": "./",
+           "defaultTheme": "light"
+       }
+    ],
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
     "paths": {
