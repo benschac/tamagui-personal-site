@@ -7,6 +7,7 @@ import { Provider } from 'app/provider'
 import { useFonts } from 'expo-font'
 import { Stack } from 'expo-router'
 import { useColorScheme } from 'react-native'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 export default function HomeLayout() {
   const [loaded] = useFonts({
@@ -20,9 +21,11 @@ export default function HomeLayout() {
   }
   return (
     <Provider>
-      <ThemeProvider value={scheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack />
-      </ThemeProvider>
+      <SafeAreaProvider>
+        <ThemeProvider value={scheme === 'dark' ? DarkTheme : DefaultTheme}>
+          <Stack />
+        </ThemeProvider>
+      </SafeAreaProvider>
     </Provider>
   )
 }
