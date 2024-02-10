@@ -6038,7 +6038,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.6.4":
+"@types/node@npm:*":
   version: 18.16.1
   resolution: "@types/node@npm:18.16.1"
   checksum: 10/d77a82fa404153804b916b31ea652507428a8076b447d4cbfe5da057fc3dd9abe26c2ac4b41d758d7287adaacc2d16a877e474105024b880aaaa2e193bebb356
@@ -6049,6 +6049,15 @@ __metadata:
   version: 14.18.33
   resolution: "@types/node@npm:14.18.33"
   checksum: 10/ec6bdc69943adec148b0182c7e47c9b8d0c1789a6f8c45a6bc5f375e609e859c019830ff3d6751580453dda453add5b17784da009f8253bbec34ef92cc1a31a7
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.19.15":
+  version: 18.19.15
+  resolution: "@types/node@npm:18.19.15"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10/cbd4bf49f6aa0e5e9b9d3dafd0f83cc21475f6fe846c8b59a264e508608aaad8cd48dfce95ee48cdf81d3139c35c03a9d4fcd613bf98cae7b61c7dc36bb6b195
   languageName: node
   linkType: hard
 
@@ -10083,16 +10092,16 @@ __metadata:
     expo-router: "npm:~3.4.7"
     expo-splash-screen: "npm:~0.26.4"
     expo-status-bar: "npm:~1.11.1"
-    expo-updates: "npm:0.24.10"
+    expo-updates: "npm:0.24.9"
     metro-minify-terser: "npm:^0.80.5"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-native: "npm:0.73.4"
-    react-native-gesture-handler: "npm:~2.14.1"
+    react-native-gesture-handler: "npm:~2.15.0"
     react-native-safe-area-context: "npm:4.9.0"
     react-native-screens: "npm:~3.29.0"
     react-native-svg: "npm:14.1.0"
-    react-native-web: "npm:~0.19.6"
+    react-native-web: "npm:~0.19.10"
     typescript: "npm:^5.3.3"
   languageName: unknown
   linkType: soft
@@ -10339,9 +10348,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:0.24.10":
-  version: 0.24.10
-  resolution: "expo-updates@npm:0.24.10"
+"expo-updates@npm:0.24.9":
+  version: 0.24.9
+  resolution: "expo-updates@npm:0.24.9"
   dependencies:
     "@expo/code-signing-certificates": "npm:0.0.5"
     "@expo/config": "npm:~8.5.0"
@@ -10358,7 +10367,7 @@ __metadata:
     expo: "*"
   bin:
     expo-updates: bin/cli.js
-  checksum: 10/510fe79fc830c8c3de7a7d280a65ace50575b5558dfb17c61f2ff3858d86936a0ef5f642f7fb67103c3228c2179de4b836b0e862b4838fd0256c19e5059e3389
+  checksum: 10/221a51ac1239a662eaafdb9fa3eb71549cd83c1fdfdbbaf2278008b66e16f038c476ee20972241d03d681c66d1447f91cefae55dfac88362774c5bfb3ce57cdd
   languageName: node
   linkType: hard
 
@@ -13888,7 +13897,7 @@ __metadata:
     "@tamagui/config": "npm:^1.89.20"
     "@tamagui/next-plugin": "npm:^1.89.20"
     "@tamagui/next-theme": "npm:^1.89.20"
-    "@types/node": "npm:^18.6.4"
+    "@types/node": "npm:^18.19.15"
     app: "npm:0.0.0"
     eslint-config-next: "npm:^14.1.0"
     next: "npm:^13.5.6"
@@ -13896,7 +13905,7 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-native: "npm:0.73.4"
-    react-native-web: "npm:~0.19.6"
+    react-native-web: "npm:~0.19.10"
     react-native-web-lite: "npm:^1.89.20"
     tamagui: "npm:^1.89.20"
     vercel: "npm:^33.5.0"
@@ -14826,7 +14835,7 @@ __metadata:
     check-dependency-version-consistency: "npm:^3.3.0"
     eslint: "npm:^8.56.0"
     node-gyp: "npm:^9.4.1"
-    prettier: "npm:^2.8.8"
+    prettier: "npm:^3.2.5"
     turbo: "npm:^1.12.3"
     typescript: "npm:^5.3.3"
   languageName: unknown
@@ -15024,12 +15033,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.8":
-  version: 2.8.8
-  resolution: "prettier@npm:2.8.8"
+"prettier@npm:^3.2.5":
+  version: 3.2.5
+  resolution: "prettier@npm:3.2.5"
   bin:
-    prettier: bin-prettier.js
-  checksum: 10/00cdb6ab0281f98306cd1847425c24cbaaa48a5ff03633945ab4c701901b8e96ad558eb0777364ffc312f437af9b5a07d0f45346266e8245beaf6247b9c62b24
+    prettier: bin/prettier.cjs
+  checksum: 10/d509f9da0b70e8cacc561a1911c0d99ec75117faed27b95cc8534cb2349667dee6351b0ca83fa9d5703f14127faa52b798de40f5705f02d843da133fc3aa416a
   languageName: node
   linkType: hard
 
@@ -15365,9 +15374,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:~2.14.1":
-  version: 2.14.1
-  resolution: "react-native-gesture-handler@npm:2.14.1"
+"react-native-gesture-handler@npm:~2.15.0":
+  version: 2.15.0
+  resolution: "react-native-gesture-handler@npm:2.15.0"
   dependencies:
     "@egjs/hammerjs": "npm:^2.0.17"
     hoist-non-react-statics: "npm:^3.3.0"
@@ -15377,7 +15386,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10/0a86209d515febf6da489c210f8983ded4a8d6e87dc94bca55f8afab657ec096797b21954b7599f6e05e1238634d770b5462266f3f4018363e4eb73496f2147a
+  checksum: 10/7feafdcfad1d4e066e5f238340b2f615d5abaa2b39c4d224e2eb0ed6563ce0afabcd1dd927f0aa5a0f3a9464f08909eb8d648a46dec3f25d08875ebc90258e14
   languageName: node
   linkType: hard
 
@@ -15446,9 +15455,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:~0.19.6":
-  version: 0.19.9
-  resolution: "react-native-web@npm:0.19.9"
+"react-native-web@npm:~0.19.10":
+  version: 0.19.10
+  resolution: "react-native-web@npm:0.19.10"
   dependencies:
     "@babel/runtime": "npm:^7.18.6"
     "@react-native/normalize-color": "npm:^2.1.0"
@@ -15461,7 +15470,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10/1cf7ec649815f8c27d49bc221871a0e23c17e1247ffa61f677894a1f570da3ac4d015ce849ed07dce44ea011a63cb4511982a5d3bedc9e42bbf404ad38dd580e
+  checksum: 10/923a13b6d6c23039a0bb36d9c1490bc184c308649198e95ea0fdb62ab35983150126c4b07d716a09d42f37be57d14f2669ca9661e9a3faaf856ed7f7f222120e
   languageName: node
   linkType: hard
 
@@ -17835,6 +17844,13 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     which-boxed-primitive: "npm:^1.0.2"
   checksum: 10/06e1ee41c1095e37281cb71a975cb3350f7cb470a0665d2576f02cc9564f623bd90cfc0183693b8a7fdf2d242963dcc3010b509fa3ac683f540c765c0f3e7e43
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 10/0097779d94bc0fd26f0418b3a05472410408877279141ded2bd449167be1aed7ea5b76f756562cb3586a07f251b90799bab22d9019ceba49c037c76445f7cddd
   languageName: node
   linkType: hard
 
